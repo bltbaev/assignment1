@@ -77,74 +77,74 @@ public class Main{
 
     public static void main(String[] args){
           Scanner scanner =new Scanner(System.in);
-//
-//        //Task 1
-//        System.out.println("|Task 1|");
-//        System.out.print("Enter the number:");
-//        int num= scanner.nextInt();
-//        task1(num);
-//
-//        //Task 2
-//        System.out.println("|Task 2|");
-//        System.out.print("Enter the number:");
-//        int n= scanner.nextInt();
-//        int sum=task2(n,scanner);
-//        System.out.println("Result:"+(double)sum/n);
-//
-//        //Task 3
-//        System.out.println("|Task 3|");
-//        System.out.print("Enter the number that you want check:");
-//        int a= scanner.nextInt();
-//        if(task3(a,2)){
-//            System.out.println("Prime");
-//        }
-//        else{
-//            System.out.println("Composite");
-//        }
-//
-//        //Task 4
-//        System.out.println("|Task 4|");
-//        System.out.print("Enter the numb:");
-//        int b= scanner.nextInt();
-//        System.out.println("Factorial:"+task4(b));
 
-//        //Task 5
-//        System.out.println("|Task 5|");
-//        System.out.print("Enter the numb:");
-//        int ab= scanner.nextInt();
-//        System.out.println(task5(ab));
-//
-//        //Task 6
-//        System.out.println("|Task 6|");
-//        System.out.print("Enter the numb:");
-//        int n= scanner.nextInt();
-//        System.out.print("Enter the power:");
-//        int p=scanner.nextInt();
-//        System.out.println("Result:"+task6(n,p));
+        //Task 1
+        System.out.println("|Task 1|");
+        System.out.print("Enter the number:");
+        int num= scanner.nextInt();
+        task1(num);
+
+        //Task 2
+        System.out.println("|Task 2|");
+        System.out.print("Enter the number:");
+        int n= scanner.nextInt();
+        int sum=task2(n,scanner);
+        System.out.println("Result:"+(double)sum/n);
+
+        //Task 3
+        System.out.println("|Task 3|");
+        System.out.print("Enter the number that you want check:");
+        int a= scanner.nextInt();
+        if(task3(a,2)){
+            System.out.println("Prime");
+        }
+        else{
+            System.out.println("Composite");
+        }
+
+        //Task 4
+        System.out.println("|Task 4|");
+        System.out.print("Enter the numb:");
+        int b= scanner.nextInt();
+        System.out.println("Factorial:"+task4(b));
+
+        //Task 5
+        System.out.println("|Task 5|");
+        System.out.print("Enter the numb:");
+        int ab= scanner.nextInt();
+        System.out.println(task5(ab));
+
+        //Task 6
+        System.out.println("|Task 6|");
+        System.out.print("Enter the numb:");
+        int m= scanner.nextInt();
+        System.out.print("Enter the power:");
+        int p=scanner.nextInt();
+        System.out.println("Result:"+task6(m,p));
 
         //Task 7
-//        System.out.println("|Task 7|");
-//        System.out.print("Enter the numb:");
-//        int k= scanner.nextInt();
-//        task7(k,scanner);
-//        System.out.println();
+        System.out.println("|Task 7|");
+        System.out.print("Enter the numb:");
+        int k= scanner.nextInt();
+        task7(k,scanner);
+        System.out.println();
 
-//        //Task 8
-//        System.out.println("|Task 8|");
-//        System.out.print("Enter the string:");
-//        String s= scanner.next();
-//        if(task8(s,0)){
-//            System.out.println("Yes");
-//        }
-//        else{
-//            System.out.println("No");
-//        }
-//
-//        //Task 9
-//        System.out.println("|Task 9|");
-//        System.out.print("Enter the string:");
-//        String d= scanner.next();
-//        System.out.println(task9(d));
+        //Task 8
+        System.out.println("|Task 8|");
+        System.out.print("Enter the string:");
+        String s= scanner.next();
+        if(task8(s,0)){
+            System.out.println("Yes");
+        }
+        else{
+            System.out.println("No");
+        }
+
+        //Task 9
+        System.out.println("|Task 9|");
+        System.out.print("Enter the string:");
+        String d= scanner.next();
+        System.out.println(task9(d));
 
         //Task 10
         System.out.println("|Task 10|");
