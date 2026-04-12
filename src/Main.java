@@ -156,5 +156,7 @@ public class Main{
 
         scanner.close();
     }
+    static void ll(){}
 
 }
+
